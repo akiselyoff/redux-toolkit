@@ -23,7 +23,7 @@ const valueReducer = createReducer(initialValue, {
 //   }
 // };
 
-const stepReducer = (state = 2, action) => state;
+const stepReducer = (state = 2) => state;
 
 export default combineReducers({
   value: valueReducer,
